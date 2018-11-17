@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression TestSuite" duration-ms="130" started-at="2018-11-17T02:20:09Z" finished-at="2018-11-17T02:20:09Z">
+    <groups>
+      <group name="cars">
+        <method signature="Group.testAudiA6()[pri:0, instance:core.Testng.testclasses.Group@26be92ad]" name="testAudiA6" class="core.Testng.testclasses.Group"/>
+        <method signature="Group.testBMWX6()[pri:0, instance:core.Testng.testclasses.Group@26be92ad]" name="testBMWX6" class="core.Testng.testclasses.Group"/>
+      </group> <!-- cars -->
+      <group name="bikes">
+        <method signature="Group.testHondaCBR()[pri:0, instance:core.Testng.testclasses.Group@26be92ad]" name="testHondaCBR" class="core.Testng.testclasses.Group"/>
+        <method signature="Group.testNinja()[pri:0, instance:core.Testng.testclasses.Group@26be92ad]" name="testNinja" class="core.Testng.testclasses.Group"/>
+      </group> <!-- bikes -->
+      <group name="suv">
+        <method signature="Group.testBMWX6()[pri:0, instance:core.Testng.testclasses.Group@26be92ad]" name="testBMWX6" class="core.Testng.testclasses.Group"/>
+      </group> <!-- suv -->
+      <group name="sedan">
+        <method signature="Group.testAudiA6()[pri:0, instance:core.Testng.testclasses.Group@26be92ad]" name="testAudiA6" class="core.Testng.testclasses.Group"/>
+      </group> <!-- sedan -->
+    </groups>
+    <test name="GroupsDemo" duration-ms="130" started-at="2018-11-17T02:20:09Z" finished-at="2018-11-17T02:20:09Z">
+      <class name="core.Testng.testclasses.Group">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.Testng.testclasses.Group@26be92ad]" name="beforeClass" is-config="true" duration-ms="31" started-at="2018-11-17T02:20:09Z" finished-at="2018-11-17T02:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testAudiA6()[pri:0, instance:core.Testng.testclasses.Group@26be92ad]" name="testAudiA6" duration-ms="12" started-at="2018-11-17T02:20:09Z" finished-at="2018-11-17T02:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAudiA6 -->
+        <test-method status="PASS" signature="testBMWX6()[pri:0, instance:core.Testng.testclasses.Group@26be92ad]" name="testBMWX6" duration-ms="5" started-at="2018-11-17T02:20:09Z" finished-at="2018-11-17T02:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBMWX6 -->
+        <test-method status="PASS" signature="testHondaCBR()[pri:0, instance:core.Testng.testclasses.Group@26be92ad]" name="testHondaCBR" duration-ms="4" started-at="2018-11-17T02:20:09Z" finished-at="2018-11-17T02:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHondaCBR -->
+        <test-method status="PASS" signature="testNinja()[pri:0, instance:core.Testng.testclasses.Group@26be92ad]" name="testNinja" duration-ms="3" started-at="2018-11-17T02:20:09Z" finished-at="2018-11-17T02:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNinja -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.Testng.testclasses.Group@26be92ad]" name="afterClass" is-config="true" duration-ms="2" started-at="2018-11-17T02:20:09Z" finished-at="2018-11-17T02:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- core.Testng.testclasses.Group -->
+    </test> <!-- GroupsDemo -->
+  </suite> <!-- Regression TestSuite -->
+</testng-results>
