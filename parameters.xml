@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parameters TestSuite">
+	<test name="Application Test">
+		<parameter name="browser" value="Firefox" />
+		<parameter name="platform" value="MacOS" />
+		<parameter name="response" value="200,201,202" />
+		<classes>
+			<class name="core.Testng.testclasses.ParametersXML" />
+		</classes>
+	</test>
+</suite>
