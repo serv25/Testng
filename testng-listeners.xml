@@ -1,10 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Listeners TestSuite">
-	<!-- <test name="Test Demo 1">
+	<test name="Test Demo 1">
 		<classes>
 			<class name="core.Testng.tests.ListenersTest1" />
 		</classes>
-	</test>  -->
+	</test>
 	<test name="Test Demo 2">
 		<classes>
 			<class name="core.Testng.tests.ListenersTest2" />
