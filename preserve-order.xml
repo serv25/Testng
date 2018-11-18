@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Preserve order of execution">
+	<test name="Test 1" preserve-order="true">
+		<classes>
+			<class name="core.Testng.testclasses.PreserveOrder2" />
+			<class name="core.Testng.testclasses.PreserveOrder1" />
+		</classes>
+	</test>
+	<test name="Test 2" enabled="false">
+		<classes>
+			<class name="core.Testng.testclasses.PreserveOrder2" />
+			<class name="core.Testng.testclasses.PreserveOrder1" />
+		</classes>
+	</test>
+</suite>
