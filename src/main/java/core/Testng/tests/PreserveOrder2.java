@@ -1,8 +1,8 @@
-package core.Testng.testclasses;
+package core.Testng.tests;
 
 import org.testng.annotations.Test;
 
-public class PreserveOrder1 {
+public class PreserveOrder2 {
 
 	@Test
 	public void test1() {

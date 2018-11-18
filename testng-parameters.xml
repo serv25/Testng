@@ -5,7 +5,7 @@
 		<parameter name="platform" value="MacOS" />
 		<parameter name="response" value="200,201,202" />
 		<classes>
-			<class name="core.Testng.testclasses.ParametersXML" />
+			<class name="core.Testng.tests.ParametersXML" />
 		</classes>
 	</test>
 </suite>

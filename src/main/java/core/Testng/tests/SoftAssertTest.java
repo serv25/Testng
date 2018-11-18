@@ -1,9 +1,9 @@
-package core.Testng.testclasses;
+package core.Testng.tests;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import core.Testng.appcode.App;
+import core.Testng.apps.App;
 
 public class SoftAssertTest {
 

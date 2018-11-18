@@ -1,10 +1,10 @@
-package core.Testng.testclasses;
+package core.Testng.tests;
 
 import static org.testng.Assert.assertEquals;
 
 import org.testng.annotations.Test;
 
-import core.Testng.appcode.App;
+import core.Testng.apps.App;
 
 public class AssertsTest {
 

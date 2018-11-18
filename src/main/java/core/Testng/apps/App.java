@@ -1,4 +1,4 @@
-package core.Testng.appcode;
+package core.Testng.apps;
 
 public class App {
 

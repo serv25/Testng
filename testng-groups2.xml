@@ -16,7 +16,7 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="core.Testng.testclasses.Group" />
+			<class name="core.Testng.tests.Group" />
 		</classes>
 	</test>
 </suite>
