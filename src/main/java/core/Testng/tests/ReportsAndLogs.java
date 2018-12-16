@@ -13,38 +13,38 @@ public class ReportsAndLogs {
 
 	@BeforeClass
 	public void beforeClass() {
-		Reporter.log("--> logs @BeforeClass", true);
+		Reporter.log("-> logs @BeforeClass", true);
 	}
 
 	@AfterClass
 	public void afterClass() {
-		Reporter.log("--> logs @AfterClass", true);
+		Reporter.log("-> logs @AfterClass", true);
 	}
 
 	@BeforeMethod
 	public void beforeMethod() {
-		Reporter.log("--> logs @BeforeMethod", true);
+		Reporter.log("-> logs @BeforeMethod", true);
 	}
 
 	@AfterMethod
 	public void afterMethod() {
-		Reporter.log("--> logs @AfterMethod", true);
+		Reporter.log("-> logs @AfterMethod", true);
 	}
 
 	@Test
 	public void test1() {
-		Reporter.log("--> logs @test1", true);
+		Reporter.log("-> logs @test1", true);
 	}
 
 	@Test
 	public void test2() {
-		Reporter.log("--> logs @test2", true);
+		Reporter.log("-> logs @test2", true);
 		assertTrue(false);
 	}
 
 	@Test(dependsOnMethods = { "test2" })
 	public void test3() {
-		Reporter.log("--> logs @test3", true);
+		Reporter.log("-> logs @test3", true);
 	}
 
 }
